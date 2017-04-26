@@ -1,0 +1,113 @@
+@font-face{
+    font-family: "gothicCentury";
+    src: url("../media/gothicCentury.ttf")
+}
+#about{
+    background: white;
+    color: #1871b6;
+}
+#questions{
+    background-color: #1871b6;
+    width: 80%;
+    height: 85%;
+    margin-top: 5%;
+    margin-left: 10%;    
+    box-shadow: 0px 0px 30px black;
+    font-family: gothicCentury;
+}
+#headline_1, #headline_2{
+    width:50%;
+    height: 14%;
+    float: left;
+    box-shadow: 0px 0px 10px white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 9vh;
+    color: white;    
+    font-size: 20px;
+    transition: all ease-out 1s;
+}
+#q1,#q2{
+    margin-top: 4.5%;
+    width: 48%;
+    height: 53%;    
+    float: left;           
+    position: absolute;
+    color: white;
+}
+
+.q_p{
+    width: 50%;    
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+#q_p_2{
+    position: absolute;
+    left: 40%;
+}
+
+#q_p_3{
+    margin-top: 5%;
+}
+
+#p1, #p2, #p3{
+    height: 31%;
+    width: 30%;
+    box-shadow: 0px 0px 20px lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p1{
+    background-image: url(../media/kindred.jpg);
+    float: right;
+    margin-top: -17.5%;
+    margin-right: 8%;
+}
+#p2{    
+    background-image: url("../media/kindred_2.jpg");
+    margin-left: 10%;
+    margin-top: ;
+}
+#p3{
+    float: right;
+    background-image: url("../media/kindred_bow.jpg");
+    margin-top: -20%;
+    margin-right: 10%
+}
+
+#q2_p_2{
+    margin-top: 15%;
+       
+}
+
+#p2_1{
+    background-image: url("../media/leslie_1.jpg");
+    height: 35%;
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -17%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 20px lightblue;
+}
+
+#p2_2{
+    background-image: url("../media/leslie_3.jpg");
+    height: 35%;
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -17%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 20px lightblue;
+}
+#headline_1:hover{
+    background-color: white;
+}
+#headline_2:hover{
+    background-color: white;
+}

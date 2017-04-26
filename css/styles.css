@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    margin-left: 20%;
+    min-width: 1152px;
+    min-height: 1080px;
+    
+    
+    
+}
+
+@font-face{
+    font-family: "gothicCentury";
+    src: url("../media/gothicCentury.ttf")
+}
+
+#background{
+    width: 1152px;
+    height: 100%;
+    background: url(../media/yi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -3;
+    position: fixed;;
+    box-shadow: 0px 0px 50px black;
+    min-width: 1080px;
+}
+#main{
+    width: 100%;
+    height: 1000px;    
+    box-sizing: border-box;   
+    
+    
+}
+#header{    
+    box-sizing: border-box;
+    width: 100%;
+    height: 45%; 
+    text-align: center;    
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#header a{
+    
+}
+#header_image{
+    background-image: url(../media/wallpaper_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 85%;
+    width: 100%;    
+    box-shadow: 0px 0px 30px black;
+    
+}
+#menu{     
+    font-family: gothicCentury, sans-serif;
+    font-size: 18pt;    
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;    
+    margin: 0;
+    padding: 0;  
+}
+.menupoint{
+    width: 20%;   
+    height: 100%;        
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    line-height: 300%;          
+    color: white;    
+    background: #1871b6;  
+    transition: color 1s, background 0.5s;
+    
+}
+.menupoint:hover{
+    background: white;
+    color: #1871b6;    
+}
+
+#content{        
+    height: 75%;
+    width: 100%;   
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#cosplay_dd{
+    display: none;
+    width: 100%;        
+    padding: 0;
+    margin-top: -5;
+    background: white;
+    
+}
+#contact_dd{
+    display: none;
+    width: 100%;       
+    padding: 0;   
+    margin-top: -5;  
+    background: white;
+    
+}
+#shop_dd{
+    display: none;
+    width: 100%;       
+    padding: 0;   
+    margin-top: -5;  
+    background: white;
+    
+}
+#contact_dd li{
+    width: 100%;    
+    list-style: none;
+    text-align: center;     
+}
+#cosplay_dd li{
+    width: 100%;    
+    list-style: none;
+    text-align: center;    
+}
+#shop_dd{
+    list-style: none;
+    text-align: center; 
+}
+
+#footer{
+    background: #1871b6;
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;    
+    box-shadow: 0px -3px 30px black;
+}
+.sm_icon{
+    margin-left: 15%;
+    margin-top: 4%;
+    transition: background 1s;
+}
+
+.sm_icon:hover{
+    background-color: white;
+}
+#cos:hover #cosplay_dd{
+    display: block;    
+}
+#contact:hover #contact_dd{
+    display: block;    
+}
+#shop:hover #shop_dd{
+    display: block;
+}
+
+.listelement:hover {    
+    background: #1871b6;
+    color: white;
+}
+ul a li{
+    color: #1871b6;
+    text-decoration: none;
+}

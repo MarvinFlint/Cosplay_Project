@@ -1,0 +1,39 @@
+#contact{
+    background: white;
+    color: #1871b6; 
+}
+@font-face{
+    font-family: "gothicCentury";
+    src: url("../media/gothicCentury.ttf")
+}
+#contact_us{
+    width: 80%;
+    height: 80%;
+    
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.section{
+    height: 30%;
+    background-color: white;
+    margin-top: 15%;
+    font-family: gothicCentury;
+}
+
+.title{
+    height: 40px;
+    line-height: 4vh;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(30,87,153,0.97) 28%,rgba(30,87,153,1) 29%,rgba(30,87,153,1) 74%,rgba(125,185,232,0) 100%);
+    background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(30,87,153,0.97) 28%,rgba(30,87,153,1) 29%,rgba(30,87,153,1) 74%,rgba(125,185,232,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#007db9e8',GradientType=1 ); 
+}
+.section div{
+    margin-left: 15%;
+    margin-top: 2%;
+    float: left;
+    font-size: 20px;
+    color: #1871b6;
+}
